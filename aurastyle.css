@@ -53,7 +53,8 @@ ul
 
 li
 {
-	float: center;
+	align: center;
+	float: left;
 }
 
 li a
@@ -65,4 +66,8 @@ li a
 	text-align: center;
 	padding: 16px;
 	text-decoration: none;
+}
+li a:hover
+{
+  background-color: blue;
 }
