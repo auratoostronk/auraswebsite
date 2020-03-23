@@ -1,5 +1,7 @@
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160981731-1"></script>
 
 	<script>
@@ -8,21 +10,17 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-160981731-1');
 	</script>
-	<script>
-		<!--document.getElementById("ul").style.width = screen.availWidth;-->
-		<!--document.getElementById("h2").style.width = screen.availWidth;-->
-	</script>
 		<link href="aurastyle.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
 		<link href="images/auralogo.png" rel="icon">
 		<title>Aura's Website</title>
-	</head>
+</head>
 
 	<body>
 		
 		<h1><img src="images/auralogo.png" alt="Aura's Logo" height="48" width="48">URA'S WEBSITE
 		<a name="top"></a></h1>
-		<ul> 
+		<ul id="menu"> 
 			<li><a href="#alphatius">ALPHATIUS</a></li>
 			<li><a href="#instagib">INSTAGIB</a></li>
 			<li><a href="#guitarherohero">GUITAR HERO HERO</a></li>
@@ -39,7 +37,7 @@
 		<h2>ALPHATIUS</h2>
 		<br><h3>A deathmatch mod for DOOM II:</h3>
 		<h4>
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
+			<iframe id="vidalph" width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</h4>
 		<br>
@@ -62,7 +60,7 @@
 		<h2>AURA'S INSTAGIB CHAOS</h2>
 		<br><h3>All it takes is one hit!</h3>
 		<h4>
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/n-jS2ALLb9Q" 
+			<iframe id="vidinsta" width="640" height="360" src="https://www.youtube.com/embed/n-jS2ALLb9Q" 
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</h4>
 		<br>
@@ -87,7 +85,7 @@
 		<h2>GUITAR HERO HERO IN GUITAR HERO</h2>
 		<br><h3>A song about Guitar Hero... in Guitar Hero!</h3>
 		<h4>
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/O22zRnJjRFo"
+			<iframe id="vidhero" width="640" height="360" src="https://www.youtube.com/embed/O22zRnJjRFo"
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</h4>
 		<br>
@@ -135,6 +133,25 @@
 		<a href="#top">Back to top</a>
 		</h4>
 		
+		
+		
+	<script>
+		function fixVideoSizes()
+		{
+			var w = document.documentElement.clientWidth * 0.8 - 200;
+			var h = document.documentElement.clientHeight * 0.8 - 200;
+			
+			document.getElementById("vidalph").setAttribute("width", w);
+			document.getElementById("vidalph").setAttribute("height", w * (320 / 640));
+			document.getElementById("vidinsta").setAttribute("width", w);
+			document.getElementById("vidinsta").setAttribute("height", w * (320 / 640));
+			document.getElementById("vidhero").setAttribute("width", w);
+			document.getElementById("vidhero").setAttribute("height", w * (320 / 640));
+		}
+		
+		window.addEventListener("resize", fixVideoSizes);
+		fixVideoSizes();
+	</script>
 		
 	</body>
 
