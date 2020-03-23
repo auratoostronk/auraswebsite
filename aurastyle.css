@@ -1,7 +1,7 @@
 body
 {
-	background-color: lightblue;
-	color: darkblue;
+	background-color: #b3f0ff;
+	color: #004488;
 	text-align: justify;
 	font-family: 'Courier New', bold;
 	font-weight: 900;
@@ -9,9 +9,21 @@ body
 	padding-left: 100px;
 	padding-right: 100px;
 }
+a:link
+{
+	color: #006080;
+}
+a:visited
+{
+	color: #008080;
+}
+a:hover
+{
+	color: #0088cc;
+}
 p
 {
-	color: darkblue;
+	color: #004488;
 	text-align: justify;
 	font-family: 'Courier New', bold;
 	font-weight: 900;
@@ -21,7 +33,7 @@ p
 }
 h1
 {
-	color: darkblue;
+	color: #004488;
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
@@ -29,7 +41,7 @@ h1
 }
 h2
 {
-	color: darkblue;
+	color: #004488;
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
@@ -41,7 +53,7 @@ h2 vid
 }
 h3
 {
-	color: darkblue;
+	color: #004488;
 	text-align: center;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
@@ -49,7 +61,7 @@ h3
 }
 h4
 {
-	color: darkblue;
+	color: #004488;
 	text-align: center;
 	font-family: 'Courier New', bold;
 	font-weight: 900;
@@ -63,7 +75,7 @@ ul
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: darkblue;
+	background-color: #004488;
 }
 li
 {
@@ -84,5 +96,11 @@ li a
 }
 li a:hover
 {
-	background-color: blue;
+	background-color: #0088cc;
+	color: white;
+}
+li a:visited
+{
+	background-color: #0088cc;
+	color: white;
 }
