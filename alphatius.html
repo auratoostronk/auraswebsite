@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160981731-1"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-160981731-1');
+	</script>
+		<link href="aurastyle.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+		<link href="images/auralogo.png" rel="icon">
+		<title>Aura's Website - Alphatius</title>
+</head>
+
+	<body>
+		
+		<h1><img src="images/auralogo.png" alt="A" height="48" width="48">URA'S WEBSITE
+		<a name="top"></a></h1>
+		<nav class="sticky">
+			<ul class="mainMenu"> 
+				<li><a class="mainMenuElement" href="index.html">HOME</a></li>
+				<li><a class="mainMenuElement" href="alphatius.html">ALPHATIUS</a></li>
+				<li><a class="mainMenuElement" href="instagib.html">INSTAGIB</a></li>
+				<li><a class="mainMenuElement" href="guitarherohero.html">GUITAR HERO HERO</a></li>
+				<li><a class="mainMenuElement" href="bradleysmod.html">BRADLEY'S MOD</a></li>
+				<li><a class="mainMenuElement" href="musicstuff.html">MUSIC STUFF</a></li>
+			</ul>
+		</nav>
+		<h2>ALPHATIUS</h2>
+		<h3>A deathmatch mod for DOOM II:</h3>
+		<p>This mod started out as a neat idea inspired by Seidolon's DOOM ULTIMATE LASER ARENA,
+		or "DULA" for short. Contrary to the chaotic atmosphere of DULA, ALPHATIUS was designed
+		with balance in mind, while also keeping the fun, fast-paced and action-packed gameplay of
+		DULA and DOOM II. Currently there are 6 different weapons with two fire modes each,
+		6 exclusive maps, 4 travel abilities that allow the player to maneuver around terrain,
+		and multiple weapon mods that alter the behavior of the weapons. These gameplay elements
+		combine to make a deathmatch mod like no other! Requires Zandronum.</p>
+		<h4>
+			<iframe id="vidalph" width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
+				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</h4>
+		<br>
+		<h4>
+		<a href="https://www.dropbox.com/s/rnlmg9k0mfi516e/alphatiusdm1.9release.zip?dl=0" target="_blank">Download here (External)</a>
+		<br>
+		<a href="https://zandronum.com/" target="_blank">Get Zandronum here</a>
+		<br>
+		</h4>
+		
+	<script>
+		function fixVideoSizes()
+		{
+			var w = document.documentElement.clientWidth * 0.8 - 200;
+			var h = document.documentElement.clientHeight * 0.8 - 200;
+			var resscale = 360/640;
+			document.getElementById("vidalph").setAttribute("width", w);
+			document.getElementById("vidalph").setAttribute("height", w * resscale);
+		}
+		
+		window.addEventListener("resize", fixVideoSizes);
+		fixVideoSizes();
+	</script>
+		
+	</body>
+
+</html>

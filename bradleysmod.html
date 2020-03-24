@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160981731-1"></script>
+
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-160981731-1');
+	</script>
+		<link href="aurastyle.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+		<link href="images/auralogo.png" rel="icon">
+		<title>Aura's Website - Bradley's Mod</title>
+</head>
+
+	<body>
+		
+		<h1><img src="images/auralogo.png" alt="A" height="48" width="48">URA'S WEBSITE
+		<a name="top"></a></h1>
+		<nav class="sticky">
+			<ul class="mainMenu"> 
+				<li><a class="mainMenuElement" href="index.html">HOME</a></li>
+				<li><a class="mainMenuElement" href="alphatius.html">ALPHATIUS</a></li>
+				<li><a class="mainMenuElement" href="instagib.html">INSTAGIB</a></li>
+				<li><a class="mainMenuElement" href="guitarherohero.html">GUITAR HERO HERO</a></li>
+				<li><a class="mainMenuElement" href="bradleysmod.html">BRADLEY'S MOD</a></li>
+				<li><a class="mainMenuElement" href="musicstuff.html">MUSIC STUFF</a></li>
+			</ul>
+		</nav>
+		<h2>BRADLEY'S MOD</h2>
+		<h3>A parody of Minecraft mods as a Minecraft mod?</h3>
+		<p>This mod is a joke mod for minecraft. The story behind it involves a fat minecraft
+		addict named Bradley who wanted to make a mod but didn't know how to code, so he 
+		hired someone to code the mod for him. However, since Bradley is an imbecile, his mod
+		consists of terrible gameplay and bland concepts. The mod parodies
+		other minecraft mods with unoriginal ideas (i.e. the classic "obsidian tools"), while being
+		intentionally terrible at the same time, but somehow manages to be crazy and 
+		fun! Requires Minecraft Forge 1.12.2
+		</p>
+		<h4>
+		<img id="bradpic1" src="images/bradleysmod01.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic2" src="images/bradleysmod02.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic3" src="images/bradleysmod03.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic4" src="images/bradleysmod04.png" alt="Missing image" style="width:640px;height:360px;">
+		</h4>
+		<h4>
+		<a href="files/bradleysmod-1.12.2-v03.jar">Download here</a>
+		<br>
+		<a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html" target="_blank">Get Minecraft Forge here</a>
+		<br>
+		</h4>
+		
+		
+		
+	<script>
+		function fixImageSizes()
+		{
+			var w = document.documentElement.clientWidth * 0.8 - 200;
+			var h = document.documentElement.clientHeight * 0.8 - 200;
+			var resscale = 360/640;
+			var picsize = "width:" + w / 2 + "px;height:" + (w * resscale / 2) +"px;";
+			document.getElementById("bradpic1").setAttribute("style", picsize);
+			document.getElementById("bradpic2").setAttribute("style", picsize);
+			document.getElementById("bradpic3").setAttribute("style", picsize);
+			document.getElementById("bradpic4").setAttribute("style", picsize);
+		}
+		
+		window.addEventListener("resize", fixImageSizes);
+		fixImageSizes();
+	</script>
+		
+	</body>
+
+</html>
