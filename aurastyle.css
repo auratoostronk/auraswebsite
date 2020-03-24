@@ -2,20 +2,18 @@ body
 {
 	background-color: #b3f0ff;
 	color: #004488;
-	text-align: justify;
-	font-family: 'Courier New', bold;
-	font-weight: 900;
-	font-size: 20px;
 	padding-left: 100px;
 	padding-right: 100px;
+	position: relative;
+	z-index: 0;
 }
 a:link
 {
-	color: #006080;
+	color: #004488;
 }
 a:visited
 {
-	color: #008080;
+	color: #004488;
 }
 a:hover
 {
@@ -30,6 +28,10 @@ p
 	font-size: 20px;
 	padding-left: 100px;
 	padding-right: 100px;
+}
+p.maindownload
+{
+	text-align: center;
 }
 h1
 {
@@ -46,6 +48,7 @@ h2
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 40px;
+	line-height: 1.0;
 }
 h2 vid
 {
@@ -72,26 +75,24 @@ h4
 ul
 {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	text-align: center;
 	overflow: hidden;
-	background-color: #004488;
 }
 li
 {
-	align: center;
+	text-align: center;
 	float: left;
-}
-
-li a
-{
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	display: block;
 	color: white;
-	text-align: center;
 	width: 250px;
-	padding: 16px;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #004488;
+}
+li a
+{
 	text-decoration: none;
 }
 li a:hover
@@ -103,4 +104,33 @@ li a:visited
 {
 	background-color: #0088cc;
 	color: white;
+}
+li a:link
+{
+	color: white;
+}
+ul.mainMenu
+{
+	text-align: center;
+	display: table;
+	margin: 0 auto;
+	font-family: 'Audiowide', cursive;
+	font-weight: 600;
+	font-size: 20px;
+	position: sticky;
+}
+li.mainMenuElement
+{
+	color: #004488;
+	padding: 0;
+	
+	text-align: center;
+}
+div.sticky
+{
+	top: 0;
+}
+iframe
+{
+	text-align: center;
 }

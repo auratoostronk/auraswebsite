@@ -20,12 +20,14 @@
 		
 		<h1><img src="images/auralogo.png" alt="Aura's Logo" height="48" width="48">URA'S WEBSITE
 		<a name="top"></a></h1>
-		<ul id="menu"> 
-			<li><a href="#alphatius">ALPHATIUS</a></li>
-			<li><a href="#instagib">INSTAGIB</a></li>
-			<li><a href="#guitarherohero">GUITAR HERO HERO</a></li>
-			<li><a href="#bradleysmod">BRADLEY'S MOD</a></li>
-		</ul>
+		<nav class="sticky">
+			<ul class="mainMenu"> 
+				<li><a class="mainMenuElement" href="#alphatius">ALPHATIUS</a></li>
+				<li><a class="mainMenuElement" href="#instagib">INSTAGIB</a></li>
+				<li><a class="mainMenuElement" href="#guitarherohero">GUITAR HERO HERO</a></li>
+				<li><a class="mainMenuElement" href="#bradleysmod">BRADLEY'S MOD</a></li>
+			</ul>
+		</nav>
 		<p>Hi! I'm aura! I'm a 20 year old college student studying
 		programming. My goal is to become a Game Designer, so I spend
 		much of my free time working on cool programs and video game mods.
@@ -35,7 +37,7 @@
 		needed to be hosted externally to Dropbox.</p>
 		<a name="alphatius"></a>
 		<h2>ALPHATIUS</h2>
-		<br><h3>A deathmatch mod for DOOM II:</h3>
+		<h3>A deathmatch mod for DOOM II:</h3>
 		<h4>
 			<iframe id="vidalph" width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -58,7 +60,7 @@
 		
 		<a name="instagib"></a>
 		<h2>AURA'S INSTAGIB CHAOS</h2>
-		<br><h3>All it takes is one hit!</h3>
+		<h3>All it takes is one hit!</h3>
 		<h4>
 			<iframe id="vidinsta" width="640" height="360" src="https://www.youtube.com/embed/n-jS2ALLb9Q" 
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -83,7 +85,7 @@
 		
 		<a name="guitarherohero"></a>
 		<h2>GUITAR HERO HERO IN GUITAR HERO</h2>
-		<br><h3>A song about Guitar Hero... in Guitar Hero!</h3>
+		<h3>A song about Guitar Hero... in Guitar Hero!</h3>
 		<h4>
 			<iframe id="vidhero" width="640" height="360" src="https://www.youtube.com/embed/O22zRnJjRFo"
 				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -108,13 +110,13 @@
 		
 		<a name="bradleysmod"></a>
 		<h2>BRADLEY'S MOD</h2>
-		<br><h3>A parody of Minecraft mods as a Minecraft mod?</h3>
+		<h3>A parody of Minecraft mods as a Minecraft mod?</h3>
 		<h4>
-		<img src="images/bradleysmod01.png" alt="Missing image" style="width:640px;height:360px;">
-		<img src="images/bradleysmod02.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic1" src="images/bradleysmod01.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic2" src="images/bradleysmod02.png" alt="Missing image" style="width:640px;height:360px;">
 		<br>
-		<img src="images/bradleysmod03.png" alt="Missing image" style="width:640px;height:360px;">
-		<img src="images/bradleysmod04.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic3" src="images/bradleysmod03.png" alt="Missing image" style="width:640px;height:360px;">
+		<img id="bradpic4" src="images/bradleysmod04.png" alt="Missing image" style="width:640px;height:360px;">
 		<br>
 		</h4>
 		<p>This mod is a joke mod for minecraft. The story behind it involves a fat minecraft
@@ -123,7 +125,7 @@
 		consists of terrible gameplay and bland concepts. The mod parodies
 		other minecraft mods with unoriginal ideas (i.e. the classic "obsidian tools"), while being
 		intentionally terrible at the same time, but somehow manages to be crazy and 
-		funny at the same time! Requires Minecraft Forge 1.12.2
+		fun! Requires Minecraft Forge 1.12.2
 		</p>
 		<h4>
 		<a href="files/bradleysmod-1.12.2-v03.jar">Download here</a>
@@ -140,13 +142,18 @@
 		{
 			var w = document.documentElement.clientWidth * 0.8 - 200;
 			var h = document.documentElement.clientHeight * 0.8 - 200;
-			
+			var resscale = 360/640;
 			document.getElementById("vidalph").setAttribute("width", w);
-			document.getElementById("vidalph").setAttribute("height", w * (320 / 640));
+			document.getElementById("vidalph").setAttribute("height", w * resscale);
 			document.getElementById("vidinsta").setAttribute("width", w);
-			document.getElementById("vidinsta").setAttribute("height", w * (320 / 640));
+			document.getElementById("vidinsta").setAttribute("height", w * resscale);
 			document.getElementById("vidhero").setAttribute("width", w);
-			document.getElementById("vidhero").setAttribute("height", w * (320 / 640));
+			document.getElementById("vidhero").setAttribute("height", w * resscale);
+			var picsize = "width:" + w / 2 + "px;height:" + (w * resscale) / 2 +"px;";
+			document.getElementById("bradpic1").setAttribute("style", picsize);
+			document.getElementById("bradpic2").setAttribute("style", picsize);
+			document.getElementById("bradpic3").setAttribute("style", picsize);
+			document.getElementById("bradpic4").setAttribute("style", picsize);
 		}
 		
 		window.addEventListener("resize", fixVideoSizes);
