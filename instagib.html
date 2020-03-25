@@ -25,7 +25,7 @@
 				<li><a class="mainMenuElement" href="index.html">HOME</a></li>
 				<li><a class="mainMenuElement" href="alphatius.html">ALPHATIUS</a></li>
 				<li><a class="mainMenuElement" href="instagib.html">INSTAGIB</a></li>
-				<li><a class="mainMenuElement" href="guitarherohero.html">GUITAR HERO HERO</a></li>
+				<li><a class="mainMenuElement" href="guitarherohero.html">CLONE HERO</a></li>
 				<li><a class="mainMenuElement" href="bradleysmod.html">BRADLEY'S MOD</a></li>
 				<li><a class="mainMenuElement" href="musicstuff.html">MUSIC STUFF</a></li>
 			</ul>
@@ -40,15 +40,17 @@
 		your answer! Some are fast and short ranged, some are slow but travel indefinitely. Some
 		even seek after enemies! Some take time to charge up! Overall, its a blast; something you
 		need to see for yourself in action! Requires Zandronum.</p>
-		<h4>
-			<iframe id="vidinsta" width="640" height="360" src="https://www.youtube.com/embed/n-jS2ALLb9Q" 
-				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</h4>
 		<br>
 		<h4>
 		<a href="files/auras-instagib-chaos-1.1release.zip">Download here</a>
 		<br>
 		<a href="https://zandronum.com/" target="_blank">Get Zandronum here</a>
+		<br>
+		</h4>
+		<h3>Here's a video!</h3>
+		<h4>
+			<iframe id="vidinsta" width="640" height="360" src="https://www.youtube.com/embed/n-jS2ALLb9Q" 
+				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</h4>
 		
 	<script>
@@ -57,6 +59,9 @@
 			var w = document.documentElement.clientWidth * 0.8 - 200;
 			var h = document.documentElement.clientHeight * 0.8 - 200;
 			var resscale = 360/640;
+			var picsize = "width:" + w / 3 + "px;height:" + w / 3 +"px;";
+			//document.getElementById("instapic1").setAttribute("style", picsize);
+			//document.getElementById("instapic2").setAttribute("style", picsize);
 			document.getElementById("vidinsta").setAttribute("width", w);
 			document.getElementById("vidinsta").setAttribute("height", w * resscale);
 		}

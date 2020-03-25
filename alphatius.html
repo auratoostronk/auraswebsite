@@ -16,7 +16,7 @@
 		<title>Aura's Website - Alphatius</title>
 </head>
 
-	<body>
+	<body class="alphatius">
 		
 		<h1><img src="images/auralogo.png" alt="A" height="48" width="48">URA'S WEBSITE
 		<a name="top"></a></h1>
@@ -25,13 +25,13 @@
 				<li><a class="mainMenuElement" href="index.html">HOME</a></li>
 				<li><a class="mainMenuElement" href="alphatius.html">ALPHATIUS</a></li>
 				<li><a class="mainMenuElement" href="instagib.html">INSTAGIB</a></li>
-				<li><a class="mainMenuElement" href="guitarherohero.html">GUITAR HERO HERO</a></li>
+				<li><a class="mainMenuElement" href="guitarherohero.html">CLONE HERO</a></li>
 				<li><a class="mainMenuElement" href="bradleysmod.html">BRADLEY'S MOD</a></li>
 				<li><a class="mainMenuElement" href="musicstuff.html">MUSIC STUFF</a></li>
 			</ul>
 		</nav>
 		<h2>ALPHATIUS</h2>
-		<h3>A deathmatch mod for DOOM II:</h3>
+		<h3>Perfectly balanced, as all things should be...</h3>
 		<p>This mod started out as a neat idea inspired by Seidolon's DOOM ULTIMATE LASER ARENA,
 		or "DULA" for short. Contrary to the chaotic atmosphere of DULA, ALPHATIUS was designed
 		with balance in mind, while also keeping the fun, fast-paced and action-packed gameplay of
@@ -40,15 +40,15 @@
 		and multiple weapon mods that alter the behavior of the weapons. These gameplay elements
 		combine to make a deathmatch mod like no other! Requires Zandronum.</p>
 		<h4>
-			<iframe id="vidalph" width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
-				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</h4>
-		<br>
-		<h4>
 		<a href="https://www.dropbox.com/s/rnlmg9k0mfi516e/alphatiusdm1.9release.zip?dl=0" target="_blank">Download here (External)</a>
 		<br>
 		<a href="https://zandronum.com/" target="_blank">Get Zandronum here</a>
 		<br>
+		</h4>
+		<h3>Here's a video!</h3>
+		<h4>
+			<iframe id="vidalph" width="640" height="360" src="https://www.youtube.com/embed/c-uMu4pzrKA" 
+				frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</h4>
 		
 	<script>
@@ -57,6 +57,7 @@
 			var w = document.documentElement.clientWidth * 0.8 - 200;
 			var h = document.documentElement.clientHeight * 0.8 - 200;
 			var resscale = 360/640;
+			var picsize = "width:" + w + "px;height:" + (w * resscale) +"px;";
 			document.getElementById("vidalph").setAttribute("width", w);
 			document.getElementById("vidalph").setAttribute("height", w * resscale);
 		}
