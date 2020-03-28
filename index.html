@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160981731-1"></script>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<script>
 		window.dataLayer = window.dataLayer || [];
@@ -20,16 +21,7 @@
 		
 		<h1><img src="images/auralogo.png" alt="A" height="48" width="48">URA'S WEBSITE
 		<br>
-		<nav class="sticky">
-			<ul class="mainMenu"> 
-				<li><a class="mainMenuElement" href="index.html">HOME</a></li>
-				<li><a class="mainMenuElement" href="alphatius.html">ALPHATIUS</a></li>
-				<li><a class="mainMenuElement" href="instagib.html">INSTAGIB</a></li>
-				<li><a class="mainMenuElement" href="guitarherohero.html">CLONE HERO</a></li>
-				<li><a class="mainMenuElement" href="bradleysmod.html">BRADLEY'S MOD</a></li>
-				<li><a class="mainMenuElement" href="musicstuff.html">MUSIC STUFF</a></li>
-			</ul>
-		</nav>
+		<div id="navbarholder"></div>
 		<h2>HOME</h2>
 		<h3>Welcome to my website!</h3>
 		<p>Hi! I'm aura! I'm a 20 year old college student studying
@@ -56,5 +48,11 @@
 		
 		window.addEventListener("resize", fixImageSizes);
 		fixImageSizes();
+	</script>
+		
+	<script>
+	$(function(){
+	  $("#navbarholder").load("navbar.html");
+	});
 	</script>
 </html>
