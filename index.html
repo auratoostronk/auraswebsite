@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160981731-1"></script>
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<script>
@@ -11,6 +10,8 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-160981731-1');
 	</script>
+		<!--<base href="https://auratoostronk.github.io/auraswebsite/" target = "_blank">-->
+		<base href="file:///G:/auraswebsite/" target = "_blank">
 		<link href="aurastyle.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
 		<link href="images/auralogo.png" rel="icon">
@@ -24,35 +25,20 @@
 		<div id="navbarholder"></div>
 		<h2>HOME</h2>
 		<h3>Welcome to my website!</h3>
-		<p>Hi! I'm aura! I'm a 20 year old college student studying
+		<p>Hi! I'm Aura! I'm a 20 year old college student studying
 		programming. My goal is to become a Game Designer, so I spend
 		much of my free time working on cool programs, music and video game mods.
 		This is my website where I host my amazing programming, musical
 		and modding projects! Go ahead and poke around! I'm sure
 		you'll find something you'll like!</p>
 		<h4>
-		<img id="homepic2" src="images/homepic2.png" alt="Missing image" style="width:640px;height:360px;">
+		<img src="images/homepic2.png" alt="Missing image">
 		</h4>
 	</body>
-
-		
-	<script>
-		function fixImageSizes()
-		{
-			var w = document.documentElement.clientWidth * 0.8 - 200;
-			var h = document.documentElement.clientHeight * 0.8 - 200;
-			var resscale = 360/640;
-			var picsize = "width:" + w + "px;height:" + (w * resscale) +"px;";
-			document.getElementById("homepic2").setAttribute("style", picsize);
-		}
-		
-		window.addEventListener("resize", fixImageSizes);
-		fixImageSizes();
-	</script>
 		
 	<script>
 	$(function(){
-	  $("#navbarholder").load("navbar.html");
+	  $("#navbarholder").load("pages/navbar.html");
 	});
 	</script>
 </html>
