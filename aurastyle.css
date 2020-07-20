@@ -101,6 +101,7 @@ li.mainMenuElement a
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
+	padding: 0px;
 }
 li.mainMenuElement:hover
 {
