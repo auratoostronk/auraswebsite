@@ -100,12 +100,12 @@ li.mainMenuElement
 }
 li.mainMenuElement a
 {
+	display: block;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 20px;
 	color: white;
 	text-decoration: none;
-	padding: 0px;
 }
 li.mainMenuElement:hover
 {
