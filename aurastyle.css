@@ -1,6 +1,6 @@
 body
 {
-	background-color: #b3f0ff;
+	background-color: #eeffff;
 	color: #004488;
 	padding-left: 150px;
 	padding-right: 150px;
@@ -73,55 +73,38 @@ ul
 	text-align: center;
 	overflow: hidden;
 }
-li
-{
-	text-align: center;
-	float: left;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	display: block;
-	color: white;
-	width: 200px;
-	padding: 10px;
-	text-decoration: none;
-	background-color: #004488;
-}
-li a
-{
-	text-decoration: none;
-}
-li a:hover
-{
-	background-color: #0088cc;
-	color: white;
-}
-li a:visited
-{
-	background-color: #0088cc;
-	color: white;
-}
-li a:link
-{
-	color: white;
-}
 ul.mainMenu
 {
-	text-align: center;
+	margin: auto;
+	list-style-type: none;
+	overflow: hidden;
 	display: table;
-	margin: 0 auto;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	font-size: 20px;
-	position: sticky;
-	padding-left: 50px;
-	padding-right: 50px;
 }
 li.mainMenuElement
 {
-	color: #004488;
-	padding: 0;
-	
+	background-image: url("images/ui/menu-button.png");
+	background-size: 100%;
+	text-decoration: none;
 	text-align: center;
+	float: left;
+	display: block;
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-inline-start: 0px;
+	width: 250px;
+}
+li.mainMenuElement a
+{
+	font-family: 'Audiowide', cursive;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+li.mainMenuElement:hover
+{
+	background-image: url("images/ui/menu-button-hover.png");
 }
 img
 {
