@@ -39,7 +39,6 @@ h1
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 50px;
-	padding: 50px;
 }
 h2
 {
@@ -83,6 +82,10 @@ ul.mainMenu
 }
 li.mainMenuElement
 {
+	font-family: 'Audiowide', cursive;
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
 	background-image: url("images/ui/menu-button.png");
 	background-size: 100%;
 	text-decoration: none;
