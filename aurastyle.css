@@ -41,13 +41,14 @@ h1
 	font-size: 50px;
 	padding-left: 100px;
 	padding-right: 100px;
+	line-height: 0;
 }
 h2
 {
 	color: #004488;
 	text-align: right;
 	position: relative;
-	top: -70px;
+	top: -50px;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 40px;
