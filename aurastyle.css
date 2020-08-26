@@ -35,32 +35,39 @@ p.maindownload
 h1
 {
 	color: #004488;
-	text-align: center;
+	text-align: left;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 h2
 {
 	color: #004488;
-	text-align: center;
+	text-align: right;
+	position: relative;
+	top: -90px;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 40px;
-	line-height: 1.0;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 h3
 {
 	color: #004488;
-	text-align: center;
+	text-align: left;
 	font-family: 'Audiowide', cursive;
 	font-weight: 600;
 	font-size: 30px;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 h4
 {
 	color: #004488;
-	text-align: center;
+	text-align: left;
 	font-family: 'Courier New', bold;
 	font-weight: 900;
 	font-size: 20px;
@@ -86,8 +93,7 @@ li.mainMenuElement
 	font-weight: 900;
 	font-size: 20px;
 	color: white;
-	background-image: url("images/ui/menu-button.png");
-	background-size: 100%;
+	background-color: #004488;
 	text-decoration: none;
 	text-align: center;
 	float: left;
@@ -109,7 +115,7 @@ li.mainMenuElement a
 }
 li.mainMenuElement:hover
 {
-	background-image: url("images/ui/menu-button-hover.png");
+	background-color: #0088cc;
 }
 img
 {
