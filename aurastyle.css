@@ -53,6 +53,7 @@ h2
 	font-size: 40px;
 	padding-left: 100px;
 	padding-right: 100px;
+	line-height: 0;
 }
 h3
 {
@@ -102,7 +103,7 @@ li.mainMenuElement
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-inline-start: 0px;
-	width: 250px;
+	width: 200px;
 }
 li.mainMenuElement a
 {
