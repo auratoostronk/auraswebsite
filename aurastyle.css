@@ -1,140 +1,149 @@
+
 body
 {
-	background-color: #eeffff;
-	color: #004488;
-	padding-left: 150px;
-	padding-right: 150px;
-	position: relative;
+    width: 1200px;
+    margin: auto;
 }
-a:link
+h1.web-name
 {
-	color: #004488;
+    font-family: 'Audiowide';
+    font-size: 40px;
+	color: #005888;
+    float: left;
 }
-a:visited
+h1.page-name
 {
-	color: #004488;
+    font-family: 'Audiowide';
+    font-size: 40px;
+	color: #005888;
+    float: right;
 }
-a:hover
+nav
 {
-	color: #0088cc;
+    clear: both;
 }
-p
+article
 {
-	color: #004488;
-	text-align: justify;
-	font-family: 'Courier New', bold;
-	font-weight: 900;
-	font-size: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
+    margin: 0px;
+    clear: both;
+	color: #005888;
+    font-family: 'Courier New', bold;
+    font-weight: bolder;
 }
-p.maindownload
+article h2
 {
-	text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+    font-size: 30px;
 }
-h1
+article h3
 {
-	color: #004488;
-	text-align: left;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	font-size: 50px;
-	padding-left: 100px;
-	padding-right: 100px;
-	line-height: 0;
+    font-size: 24px;
 }
-h2
+article p
 {
-	color: #004488;
-	text-align: right;
-	position: relative;
-	top: -50px;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	font-size: 40px;
-	padding-left: 100px;
-	padding-right: 100px;
-	line-height: 0;
+    font-size: 18px;
 }
-h3
+article img
 {
-	color: #004488;
-	text-align: left;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	font-size: 30px;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-h4
-{
-	color: #004488;
-	text-align: left;
-	font-family: 'Courier New', bold;
-	font-weight: 900;
-	font-size: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
-}
-ul
-{
-	list-style-type: none;
-	text-align: center;
-	overflow: hidden;
-}
-ul.mainMenu
-{
-	margin: auto;
-	list-style-type: none;
-	overflow: hidden;
-	display: table;
-}
-li.mainMenuElement
-{
-	font-family: 'Audiowide', cursive;
-	font-weight: 900;
-	font-size: 20px;
-	color: white;
-	background-color: #004488;
-	text-decoration: none;
-	text-align: center;
-	float: left;
-	display: inline-block;
-	padding-inline-start: 0px;
-	width: 250px;
-}
-li.mainMenuElement a
-{
-	display: block;
-	font-family: 'Audiowide', cursive;
-	font-weight: 600;
-	font-size: 20px;
-	color: white;
-	text-decoration: none;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-li.mainMenuElement:hover
-{
-	background-color: #0088cc;
-}
-img
-{
-	max-width: 100%;
-	height: auto;
-}
-div.vidcontainer
-{
-    position: relative;
+    margin: auto;
     width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
 }
-iframe
+ul.menu
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+li.menubutton a
+{
+    width: 220px;
+    background-color: #005888;
+    color: white;
+    font-family: 'Audiowide';
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+li.menubutton a:hover
+{
+    background-color: #0088dd;
+}
+footer
+{
+    margin-top: 20px;
+    clear: both;
+    background-color: #005888;
+    padding: 20px;
+    text-align: center;
+}
+footer h3
+{
+    margin: 0px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Audiowide';
+}
+footer p
+{
+    margin: 0px;
+    color: white;
+    font-family: 'Courier New', bold;
+    font-weight: bold;
+    font-size: 18px;
+}
+.image-header
+{
+    background-color: #005588;
+    color: white;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Audiowide';
+    font-size: 30px;
+    
+}
+div.home-panel-row
+{
+    clear: both;
+}
+div.home-panel 
+{
+    float: left;
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+div.home-panel a
+{
+    float: left;
+    width: 600px;
+    height: auto;
+    text-decoration: none;
+}
+div.home-panel a:hover
+{
+    background-color: #0088dd;
+}
+div.centered
+{
+    text-align: center;
+}
+div.home-left
+{
+    padding-top: 20px;
+    float: left;
+    width: 400px;
+}
+div.home-right
+{
+    padding-top: 20px;
+    float: right;
+    width: 600px;
 }
