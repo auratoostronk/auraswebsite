@@ -4,6 +4,14 @@ body
     width: 1200px;
     margin: auto;
 }
+a
+{
+	color: #005888;
+}
+a.hover
+{
+    color: #0088dd;
+}
 h1.web-name
 {
     font-family: 'Audiowide';
@@ -56,7 +64,7 @@ ul.menu
 }
 li.menubutton a
 {
-    width: 220px;
+    width: 280px;
     background-color: #005888;
     color: white;
     font-family: 'Audiowide';
