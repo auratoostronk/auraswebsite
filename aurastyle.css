@@ -155,3 +155,22 @@ div.home-right
     float: right;
     width: 600px;
 }
+div.download-button a
+{
+    width: 1200px;
+    background-color: #005888;
+    color: white;
+    font-family: 'Audiowide';
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    display: inline-block;
+}
+div.download-button a:hover
+{
+    background-color: #0088dd;
+}
