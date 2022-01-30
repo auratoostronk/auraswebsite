@@ -141,6 +141,7 @@ div.home-panel a:hover
 }
 div.centered
 {
+    width: 600px;
     text-align: center;
 }
 div.home-left
@@ -167,10 +168,28 @@ div.download-button a
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: auto;
     display: inline-block;
 }
 div.download-button a:hover
 {
     background-color: #0088dd;
+}
+section.left
+{
+    padding: 20px;
+    float: left;
+    display: inline-block;
+}
+section.right
+{
+    padding: 10px;
+    float: right;
+    width: 500px;
+    display: inline-block;
+}
+iframe.leftvid
+{
+
+    width: 640px;
+    height: 400px;
 }
