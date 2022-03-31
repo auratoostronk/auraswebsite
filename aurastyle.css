@@ -1,4 +1,7 @@
-
+html
+{
+    
+}
 body
 {
     width: 1200px;
@@ -64,7 +67,7 @@ ul.menu
 }
 li.menubutton a
 {
-    width: 280px;
+    width: 220px;
     background-color: #005888;
     color: white;
     font-family: 'Audiowide';
@@ -159,8 +162,8 @@ div.home-right
 div.download-button a
 {
     width: 1200px;
-    background-color: #005888;
-    color: white;
+    background-color: white;
+    color: #005888;
     font-family: 'Audiowide';
     font-size: 30px;
     text-align: center;
@@ -168,11 +171,15 @@ div.download-button a
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-color: #005888;
+    border-width: 5px;
+    border-style: solid;
     display: inline-block;
 }
 div.download-button a:hover
 {
-    background-color: #0088dd;
+    color: #0088dd;
+    border-color: #0088dd;
 }
 section.left
 {
@@ -192,4 +199,9 @@ iframe.leftvid
 
     width: 640px;
     height: 400px;
+}
+a.white
+{
+    color: white;
+    text-decoration: none;
 }
