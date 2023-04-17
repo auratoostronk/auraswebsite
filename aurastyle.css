@@ -67,7 +67,7 @@ ul.menu
 }
 li.menubutton a
 {
-    width: 220px;
+    width: 25%;
     background-color: #005888;
     color: white;
     font-family: 'Audiowide';
@@ -75,8 +75,6 @@ li.menubutton a
     float: left;
     text-align: center;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
@@ -144,7 +142,7 @@ div.home-panel a:hover
 }
 div.centered
 {
-    width: 600px;
+    width: 100%;
     text-align: center;
 }
 div.home-left
@@ -183,21 +181,21 @@ div.download-button a:hover
 }
 section.left
 {
-    padding: 20px;
+    padding: 10px;
+    width: 580px;
     float: left;
     display: inline-block;
 }
 section.right
 {
     padding: 10px;
+    width: 580px;
     float: right;
-    width: 500px;
     display: inline-block;
 }
 iframe.leftvid
 {
-
-    width: 640px;
+    width: 560px;
     height: 400px;
 }
 a.white
