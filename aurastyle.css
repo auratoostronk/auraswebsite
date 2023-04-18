@@ -29,9 +29,20 @@ h1.page-name
 	color: #005888;
     float: right;
 }
+h1.centered
+{
+    background-color: #005888;
+    color: white;
+    font-family: 'Audiowide';
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
 nav
 {
     clear: both;
+    padding-bottom: 40px;
 }
 article
 {
@@ -43,8 +54,6 @@ article
 }
 article h2
 {
-    padding-top: 20px;
-    margin: 0px;
     font-size: 30px;
 }
 article h3
@@ -53,7 +62,8 @@ article h3
 }
 article p
 {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 30px;
 }
 article img
 {
@@ -71,7 +81,7 @@ li.menubutton a
     background-color: #005888;
     color: white;
     font-family: 'Audiowide';
-    font-size: 20px;
+    font-size: 30px;
     float: left;
     text-align: center;
     text-decoration: none;
@@ -181,8 +191,8 @@ div.download-button a:hover
 }
 section.left
 {
-    padding: 10px;
-    width: 580px;
+    padding: 20px;
+    width: 560px;
     float: left;
     display: inline-block;
 }
