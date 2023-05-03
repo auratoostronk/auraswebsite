@@ -25,16 +25,18 @@ h1.web-name
 h1.page-name
 {
     font-family: 'Audiowide';
-    font-size: 40px;
+    font-size: 36px;
 	color: #005888;
     float: right;
 }
 h1.centered
 {
-    background-color: #005888;
-    color: white;
+    color: #005888;
+    border-color: #005888;
+    border-style: solid;
+    border-width: 10px;
     font-family: 'Audiowide';
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     padding: 10px;
@@ -51,6 +53,7 @@ article
 	color: #005888;
     font-family: 'Courier New', bold;
     font-weight: bolder;
+    padding-bottom: 20px;
 }
 article h2
 {
@@ -98,7 +101,7 @@ footer
     margin-top: 20px;
     clear: both;
     background-color: #005888;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 footer h3
@@ -170,28 +173,29 @@ div.home-right
 div.download-button a
 {
     width: 1200px;
-    background-color: white;
-    color: #005888;
+    background-color: #005888;
+    color: white;
     font-family: 'Audiowide';
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-color: #005888;
-    border-width: 5px;
-    border-style: solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: inline-block;
 }
 div.download-button a:hover
 {
-    color: #0088dd;
-    border-color: #0088dd;
+    background-color: #0088dd;
+}
+div.imgborder
+{
+    background-color: #005888;
+    padding: 20px;
 }
 section.left
 {
-    padding: 20px;
+    padding: 10px;
     width: 560px;
     float: left;
     display: inline-block;
