@@ -17,14 +17,14 @@ a.hover
 }
 h1.web-name
 {
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 40px;
 	color: #005888;
     float: left;
 }
 h1.page-name
 {
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 36px;
 	color: #005888;
     float: right;
@@ -35,7 +35,7 @@ h1.centered
     border-color: #005888;
     border-style: solid;
     border-width: 10px;
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
@@ -51,8 +51,7 @@ article
     margin: 0px;
     clear: both;
 	color: #005888;
-    font-family: 'Courier New', bold;
-    font-weight: bolder;
+    font-family: 'Exo 2';
     padding-bottom: 20px;
 }
 article h2
@@ -80,14 +79,15 @@ ul.menu
 }
 li.menubutton a
 {
-    width: 25%;
     background-color: #005888;
+    width: 25%;
     color: white;
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 30px;
     float: left;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
     display: inline-block;
@@ -127,7 +127,7 @@ footer p
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 30px;
     
 }
@@ -172,10 +172,10 @@ div.home-right
 }
 div.download-button a
 {
-    width: 1200px;
+    width: 560px;
     background-color: #005888;
     color: white;
-    font-family: 'Audiowide';
+    font-family: 'Play';
     font-size: 36px;
     text-align: center;
     text-decoration: none;
@@ -197,20 +197,22 @@ section.left
 {
     padding: 10px;
     width: 560px;
+    height: 400px;
     float: left;
     display: inline-block;
 }
 section.right
 {
     padding: 10px;
-    width: 580px;
+    width: 560px;
+    height: 400px;
     float: right;
     display: inline-block;
 }
 iframe.leftvid
 {
-    width: 560px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
 }
 a.white
 {
