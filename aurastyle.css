@@ -72,6 +72,11 @@ article img
     margin: auto;
     width: 100%;
 }
+nav
+{
+    background-color: #005888;
+    width: 1200px;
+}
 ul.menu
 {
     list-style-type: none;
@@ -80,7 +85,7 @@ ul.menu
 li.menubutton a
 {
     background-color: #005888;
-    width: 25%;
+    width: 300px;
     color: white;
     font-family: 'Play';
     font-size: 30px;
@@ -90,7 +95,7 @@ li.menubutton a
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
-    display: inline-block;
+    display: block;
 }
 li.menubutton a:hover
 {
