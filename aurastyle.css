@@ -229,3 +229,22 @@ a.white
     color: white;
     text-decoration: none;
 }
+
+div.download-button-big a
+{
+    width: 1200px;
+    background-color: #005888;
+    color: white;
+    font-family: 'Play';
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+div.download-button-big a:hover
+{
+    background-color: #0088dd;
+}
